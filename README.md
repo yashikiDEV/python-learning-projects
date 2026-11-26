@@ -19,6 +19,7 @@ This repository serves as a hands-on record of foundational Python exercises, fo
 | [`fibonacci/`](./fibonacci) | `fibonacci.py` | Generates a Fibonacci-style number sequence from a starting integer and number of rounds. |
 | [`rock-paper-scissors/`](./rock-paper-scissors) | `pedra_papel_tesoura.py` | Interactive command-line Rock, Paper, Scissors game against the computer (prompts in Portuguese). |
 | [`json-file-creator/`](./json-file-creator) | `json_teste_.py` | Writes a Python dictionary to `teste.json` and reads it back from disk. |
+| [`phone-book/`](./phone-book) | `agenda_de_telefones.py` | Interactive command-line phone book that adds, lists, and removes contacts in memory (prompts in Portuguese). |
 
 ## Technologies
 
@@ -37,6 +38,9 @@ python-learning-projects/
 ├── json-file-creator/
 │   ├── README.md
 │   └── json_teste_.py
+├── phone-book/
+│   ├── README.md
+│   └── agenda_de_telefones.py
 └── rock-paper-scissors/
     ├── README.md
     └── pedra_papel_tesoura.py
@@ -55,6 +59,7 @@ python-learning-projects/
 
    ```bash
    python3 fibonacci/fibonacci.py
+   python3 phone-book/agenda_de_telefones.py
    python3 rock-paper-scissors/pedra_papel_tesoura.py
    ```
 
