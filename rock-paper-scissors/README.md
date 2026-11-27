@@ -1,3 +1,5 @@
+[Leia em português](./README.pt-BR.md)
+
 # Rock, Paper, Scissors (Pedra, Papel e Tesoura)
 
 An interactive terminal Rock, Paper, Scissors game written in Python where the player competes against random computer choices (with prompts and messages in Portuguese).

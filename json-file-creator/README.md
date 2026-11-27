@@ -1,3 +1,5 @@
+[Leia em português](./README.pt-BR.md)
+
 # JSON File Creator
 
 A small Python script that demonstrates how to serialize a Python dictionary to a `.json` file and load it back using the built-in `json` module.

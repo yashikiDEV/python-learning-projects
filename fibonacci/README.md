@@ -1,3 +1,5 @@
+[Leia em português](./README.pt-BR.md)
+
 # Fibonacci Sequence Generator
 
 A simple command-line Python script that prints a Fibonacci-style sequence starting from a user-provided integer.
