@@ -1,32 +1,34 @@
-# Python Learning Projects
+# Projetos de Aprendizado em Python (`python-learning-projects`)
 
-A collection of beginner Python scripts created while practicing fundamental programming concepts, standard library modules, and command-line interaction.
+Coleção de scripts e pequenos programas em Python desenvolvidos durante o aprendizado de conceitos fundamentais de programação, módulos da biblioteca padrão e interação por linha de comando.
 
-## Educational Goal
+## Objetivo educacional
 
-This repository serves as a hands-on record of foundational Python exercises, focusing on:
+Este repositório registra a evolução prática em exercícios introdutórios de Python, com foco em:
 
-- User input handling and type conversion
-- Control flow (`if` conditions, `for` and `while` loops)
-- Functions and modular logic
-- Working with built-in standard library modules (`random`, `json`)
-- Reading and writing local files
+- Leitura de dados do usuário e conversão de tipos
+- Controle de fluxo (`if`/`elif`/`else`, laços `for` e `while`)
+- Funções e organização lógica
+- Uso de estruturas de dados nativas (como dicionários e conjuntos)
+- Uso de módulos da biblioteca padrão (`random`, `json`)
+- Leitura e escrita de arquivos locais
 
-## Projects
+## Projetos
 
-| Folder | Script | Description |
+| Pasta | Script(s) | Descrição |
 | --- | --- | --- |
-| [`fibonacci/`](./fibonacci) | `fibonacci.py` | Generates a Fibonacci-style number sequence from a starting integer and number of rounds. |
-| [`rock-paper-scissors/`](./rock-paper-scissors) | `pedra_papel_tesoura.py` | Interactive command-line Rock, Paper, Scissors game against the computer (prompts in Portuguese). |
-| [`json-file-creator/`](./json-file-creator) | `json_teste_.py` | Writes a Python dictionary to `teste.json` and reads it back from disk. |
-| [`phone-book/`](./phone-book) | `agenda_de_telefones.py` | Interactive command-line phone book that adds, lists, and removes contacts in memory (prompts in Portuguese). |
+| [`fibonacci/`](./fibonacci) | `fibonacci.py` | Gera uma sequência numérica no estilo Fibonacci a partir de um inteiro inicial e da quantidade de rodadas. |
+| [`rock-paper-scissors/`](./rock-paper-scissors) | `pedra_papel_tesoura.py` | Jogo interativo de Pedra, Papel e Tesoura no terminal contra o computador. |
+| [`json-file-creator/`](./json-file-creator) | `json_teste_.py` | Grava um dicionário Python no arquivo `teste.json` e o lê de volta do disco. |
+| [`phone-book/`](./phone-book) | `agenda_de_telefones.py`, `agenda_de_telefones_v2.py` | Agenda de contatos interativa no terminal que adiciona, lista e remove contatos em memória (v1 e v2 com validações e verificação de duplicidade). |
+| [`shopping-list/`](./shopping-list) | `mercado.py` | Lista de compras de mercado interativa no terminal com catálogo fixo de produtos, preços e remoção por nome. |
 
-## Technologies
+## Tecnologias
 
-- **Python 3** (tested with Python 3.12)
-- Python Standard Library only (`random`, `json`) — no external dependencies required.
+- **Python 3** (testado com Python 3.12)
+- Apenas biblioteca padrão do Python (`random`, `json`) — sem dependências externas.
 
-## Repository Structure
+## Estrutura do repositório
 
 ```text
 python-learning-projects/
@@ -40,30 +42,35 @@ python-learning-projects/
 │   └── json_teste_.py
 ├── phone-book/
 │   ├── README.md
-│   └── agenda_de_telefones.py
-└── rock-paper-scissors/
+│   ├── agenda_de_telefones.py
+│   └── agenda_de_telefones_v2.py
+├── rock-paper-scissors/
+│   ├── README.md
+│   └── pedra_papel_tesoura.py
+└── shopping-list/
     ├── README.md
-    └── pedra_papel_tesoura.py
+    └── mercado.py
 ```
 
-## How to Run
+## Como executar
 
-1. Clone the repository:
+1. Clone o repositório:
 
    ```bash
    git clone https://github.com/yashikiDEV/python-learning-projects.git
    cd python-learning-projects
    ```
 
-2. Run any project using `python3`:
+2. Execute qualquer projeto usando `python3`:
 
    ```bash
    python3 fibonacci/fibonacci.py
-   python3 phone-book/agenda_de_telefones.py
+   python3 phone-book/agenda_de_telefones_v2.py
    python3 rock-paper-scissors/pedra_papel_tesoura.py
+   python3 shopping-list/mercado.py
    ```
 
-   For the JSON script, run it from inside its folder so `teste.json` is created there:
+   Para o script de JSON, execute-o de dentro da própria pasta para que o arquivo `teste.json` seja criado no local esperado:
 
    ```bash
    cd json-file-creator
